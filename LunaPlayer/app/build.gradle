@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'LunaPlayer'
+            keyPassword '551%&3896rc'
+            storeFile file('C:/Users/raif/Documents/lunaplayer.jks')
+            storePassword '551%&3896rc'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.luna.raif.auraplayer"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 103
+        versionName "1.0.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.firebase:firebase-ads:10.0.1'
+    compile 'com.google.android.gms:play-services-ads:10.0.1'
+}
+//apply plugin:'com.google.gms.google-services'

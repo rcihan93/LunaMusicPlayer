@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "745792098137",
+    "firebase_url": "https://luna-banner.firebaseio.com",
+    "project_id": "luna-banner",
+    "storage_bucket": "luna-banner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745792098137:android:da22f95ddee64f0a",
+        "android_client_info": {
+          "package_name": "com.example.raif.auraplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745792098137-bqtb7s111ook4ruao67ir1tirisarn4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3yvMRTjMfU1ILAtipTJ5JHh15aIOP0K8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
