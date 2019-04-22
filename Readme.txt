@@ -1,3 +1,4 @@
-Çevrimdışı müzik ve ses uygulaması.
+Ã‡evrimdÄ±ÅŸÄ± mÃ¼zik ve ses uygulamasÄ±.
 
-Android Studio ve Java ile yapılmıştır.
+Android Studio ve Java ile yapÄ±lmÄ±ÅŸtÄ±r.
+Google Playde uygulama mevcuttur.
